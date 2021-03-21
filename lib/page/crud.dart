@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class MyHomePage extends StatefulWidget {
+class CrudPage extends StatefulWidget {
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _CrudPageState createState() => _CrudPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _CrudPageState extends State<CrudPage> {
   final FirebaseFirestore firestore = FirebaseFirestore.instance;
   void _create() async {
     try {
